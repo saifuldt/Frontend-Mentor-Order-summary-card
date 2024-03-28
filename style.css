@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    background-color: var(--Pale-blue)
+
+}
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Bright-lite-blue: hsl(245, 81%, 65%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+.container{
+    background-color: var(--Pale-blue);
+}
+
+.image img{
+    border-radius: 20px 20px 0 0 ;
+    margin-top: -10px;
+}
+.order-feturs{
+    border-radius: 20px;
+}
+.text-order h1{
+    color: var(--Dark-blue);
+    font-weight: 700;
+    font-size: 18px;
+}
+.text-order p{
+    color: var(--Desaturated-blue);
+    font-weight: 400;
+}
+.product{background-color: var(--Very-pale-blue);}
+.product h2{
+    color: var( --Dark-blue);
+    font-weight: 700;
+}
+.product p{
+    color: var(--Desaturated-blue);
+    font-weight: 400;
+}
+.product a{
+    color: var(--Bright-blue);
+    font-weight: 500;
+}
+.btn button{
+    background-color: var(--Bright-blue);
+    font-weight: 700;
+}
+.btn button:hover{
+    background-color: var(--Bright-lite-blue);
+    
+}
+.cancel-btn button{
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+}
+.cancel-btn button:hover{
+   color: var(--Dark-blue);
+    
+}
+
